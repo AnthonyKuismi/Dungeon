@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		76AB989F25A4BFAD00EB6AA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AB989E25A4BFAD00EB6AA0 /* AppDelegate.swift */; };
-		76AB98A125A4BFAD00EB6AA0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 76AB98A025A4BFAD00EB6AA0 /* GameScene.sks */; };
 		76AB98A325A4BFAD00EB6AA0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 76AB98A225A4BFAD00EB6AA0 /* Actions.sks */; };
 		76AB98A525A4BFAD00EB6AA0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AB98A425A4BFAD00EB6AA0 /* GameScene.swift */; };
 		76AB98A725A4BFAD00EB6AA0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AB98A625A4BFAD00EB6AA0 /* GameViewController.swift */; };
 		76AB98AA25A4BFAD00EB6AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AB98A825A4BFAD00EB6AA0 /* Main.storyboard */; };
 		76AB98AC25A4BFB100EB6AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AB98AB25A4BFB100EB6AA0 /* Assets.xcassets */; };
+		76AB98B525A4BFE700EB6AA0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 76AB98B425A4BFE700EB6AA0 /* GameScene.sks */; };
+		76AB98B925A4C00900EB6AA0 /* dungeonTileset.sks in Resources */ = {isa = PBXBuildFile; fileRef = 76AB98B825A4C00900EB6AA0 /* dungeonTileset.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		76AB989B25A4BFAD00EB6AA0 /* DungeonCrawler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungeonCrawler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AB989E25A4BFAD00EB6AA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		76AB98A025A4BFAD00EB6AA0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		76AB98A225A4BFAD00EB6AA0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		76AB98A425A4BFAD00EB6AA0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		76AB98A625A4BFAD00EB6AA0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		76AB98A925A4BFAD00EB6AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76AB98AB25A4BFB100EB6AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76AB98AD25A4BFB100EB6AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AB98B425A4BFE700EB6AA0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../../Code_Hazel/CodeHazel/CodeHazel/GameScene.sks; sourceTree = "<group>"; };
+		76AB98B825A4C00900EB6AA0 /* dungeonTileset.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = dungeonTileset.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +61,12 @@
 			isa = PBXGroup;
 			children = (
 				76AB989E25A4BFAD00EB6AA0 /* AppDelegate.swift */,
-				76AB98A025A4BFAD00EB6AA0 /* GameScene.sks */,
+				76AB98B425A4BFE700EB6AA0 /* GameScene.sks */,
 				76AB98A225A4BFAD00EB6AA0 /* Actions.sks */,
 				76AB98A425A4BFAD00EB6AA0 /* GameScene.swift */,
 				76AB98A625A4BFAD00EB6AA0 /* GameViewController.swift */,
 				76AB98A825A4BFAD00EB6AA0 /* Main.storyboard */,
+				76AB98B825A4C00900EB6AA0 /* dungeonTileset.sks */,
 				76AB98AB25A4BFB100EB6AA0 /* Assets.xcassets */,
 				76AB98AD25A4BFB100EB6AA0 /* Info.plist */,
 			);
@@ -128,8 +131,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				76AB98AA25A4BFAD00EB6AA0 /* Main.storyboard in Resources */,
-				76AB98A125A4BFAD00EB6AA0 /* GameScene.sks in Resources */,
+				76AB98B525A4BFE700EB6AA0 /* GameScene.sks in Resources */,
 				76AB98AC25A4BFB100EB6AA0 /* Assets.xcassets in Resources */,
+				76AB98B925A4C00900EB6AA0 /* dungeonTileset.sks in Resources */,
 				76AB98A325A4BFAD00EB6AA0 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
